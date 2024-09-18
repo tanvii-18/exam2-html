@@ -1,0 +1,128 @@
+*
+{
+	margin:0%;
+	padding:0%;
+	box-sizing:border-box;
+}
+img
+{
+	height:100vh;
+	width:100%;
+}
+.box
+{
+	height:650px;
+	width:550px;
+	position:absolute;
+	top:16%;
+	left:35%;
+	border-radius:5px;
+	background: rgba( 255, 255, 255, 0.2 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 6px );
+	-webkit-backdrop-filter: blur( 6px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+	border:2px solid white;
+}
+.half-circle
+{
+    width: 150px;
+    height: 120px;
+    border-top-left-radius: 50%;
+    border-top-right-radius:50%;
+    border: 2px solid white;
+    border-bottom: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	position:absolute;
+	top:16%;
+	left:35%;
+	background-color:#ff7000c2;
+	transform:rotate(180deg);
+}
+.cir2
+{
+    width: 190px;
+    height: 160px;
+    border-top-left-radius: 60%;
+    border-top-right-radius:30%;
+    border-bottom: 0%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	position:absolute;
+	top:16%;
+	left:35%;
+	background-color:#1A5D1A;
+	transform:rotate(180deg);
+}
+h3
+{
+	font-size:70px;
+	position:absolute;
+	top:35%;
+	left:38%;
+	color:white;
+}
+.content h1
+{
+	position:absolute;
+	top:20%;
+	right:40%;
+	 font-family: 'Montserrat';
+    src: url('Montserrat-Black.woff2') format('woff2'),
+        url('Montserrat-Black.woff') format('woff');
+    font-weight:;
+    font-style: normal;
+    font-display: swap;
+	color:white;
+}
+.image
+{
+	width: 180px;
+    height: 180px;
+	border-radius:50%;
+	position:absolute;
+	top:27%;
+	right:40%;
+}
+.content2 h1
+{
+	font-size:28px;
+	position:absolute;
+	top:48%;
+	left:38%;
+	color:white;
+	 font-family: 'Montserrat';
+    src: url('Montserrat-ExtraLight.woff2') format('woff2'),
+        url('Montserrat-ExtraLight.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+.star
+{
+	font-size:28px;
+	position:absolute;
+	top:54%;
+	left:38%;
+	color:yellow;
+}
+p
+{
+	font-size:20px;
+	position:absolute;
+	top:60%;
+	left:38%;
+	color:white;
+	font-family: 'Montserrat';
+    src: url('Montserrat-ExtraLight.woff2') format('woff2'),
+        url('Montserrat-ExtraLight.woff') format('woff');
+    font-weight: 300;
+	height:300px;
+	width:450px;
+	padding:10px;
+	word-spacing:2px;
+}
